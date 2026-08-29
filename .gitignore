@@ -1,0 +1,36 @@
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Файлы с ключами и переменными окружения
+.env
+*.token
+token.txt
+Токен_Бота.txt
+*.bak
+
+# Логи
+bot.log
+*.log
+logs/
+
+# Личная память агента
+core_memory.txt
+qdrant_db/
+
+# Служебные буферы
+muse_buffer.json
+
+# Кэши линтеров и типов
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Настройки редактора (можно скрыть, если не хочешь делиться)
+.vscode/
+.idea/
